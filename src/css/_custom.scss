@@ -1,0 +1,130 @@
+/* main	 */
+#wrapper {
+	padding-top: 0px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* reset */
+.no-portlet-title-text{
+    .portlet-title-text{
+        display: none;
+    }
+}
+.jumbotron{
+    padding: 2em;
+}
+
+header#header{
+    section {
+        margin: 0;
+
+        .portlet-title-text{
+            display: none;
+        }
+
+        .portlet-content {
+            padding: 0
+        }
+    }
+}
+/* Home Search Portlet */
+section#search {
+    .portlet{
+        margin-bottom: 0px;
+    }
+    form:before{
+        display: none;
+    }
+    input.form-control + .lfr-ddm-field-group {
+        position: absolute;
+        top: 4px;
+        right: 3px;
+    }
+    .portlet-title-text {
+        display: none;
+    }
+    .portlet-content {
+        padding: 0;
+    }
+    .portlet-body {
+        background-color: #eff1f2;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+    form{
+        margin: 0;
+    }
+}
+.portlet-search{
+    .portlet-content{
+        padding: 15px;
+        border-radius: 5px;
+    }
+}
+/* sidenav */
+section[id$='GLOBAL_FOOTER'] {
+    .portlet-content{
+        padding: 0;
+    }
+    .portlet-title-text{
+        display: none;
+    }
+}
+
+/* banner  */
+section#banner {
+    padding: 0em 0 4em 0;
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+
+    .portlet-title-text{
+        display: none;
+    }
+}
+
+
+/* BreadCumbs */
+.portlet-breadcrumb {
+    .portlet-title-text{
+        display: none;
+    }
+
+    .portlet-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+} 
+
+/* for portlet border */ 
+.portlet-decorate .portlet-content {
+   	background: #fff;
+    border-color: white;
+    border-style: none;
+    border-width: 0px 0px 0px 0px;
+    word-wrap: break-word;
+}
+
+
+/*BLOG*/
+.blog-page{
+    section {
+        .h2{
+            margin: 0 0 1em 0;
+            font-size: 3.5em;
+        }
+        .header-back-to{
+            display: none;
+        }
+        .cover-image-container{
+            border-radius: 0.375em;
+            margin-bottom: 2.5em;
+        }
+        .entry-date, .portlet-blogs{
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 2em;
+            margin-bottom: 2em;
+        }
+    }
+}
