@@ -1,22 +1,19 @@
-# Liferay >= 7.0 - BYTE-THEME
+# Liferay 7.0 – BYTE THEME
 
-Liferay BYTE-THEME is Multilanguage Product/Service compnay website  theme
+Byte Theme is a minimalistic theme inspired by existing Corporate Multilanguage sites. It provides a solid foundation to get started with your corporate site. 
 
 <img src="/src/images/screenshot.png" alt="BYTE-THEME" width="400px">
 
-### Feature
+### BYTE THEME includes these useful features:
 
-- Bootstrap Responsive
+- Structured content to create elegant out of box liferay’s layouts for several use cases
+-	Bootstrap Responsive
+-	Multilanguage (English, German within)
+-	With awesome Application Display template
+-	Web content with structure and template
+-	Out of Box Site Search integration
 
-- Multilanguage (English, German within)
-
-- Used Application Display template
-
-- Web content with structure and template
-
-- Out of Box Site Search integration
-
-# Getting started
+# Installation Guide
 
 1. clone our repo
  ```bash
