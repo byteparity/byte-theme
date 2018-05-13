@@ -86,7 +86,9 @@
 
 					<footer id="footer" role="contentinfo">
 						<p class="powered-by">
-						<@liferay.language key="powered-by" /> <a target="_blank" href="http://www.byteparity.com" rel="external">${site_name}</a>
+							<@liferay.language key="powered-by" /> <a target="_blank" href="http://www.byteparity.com" rel="external">${site_name}</a> 
+							<br>
+							<@liferay.language key="design" />: <a href="https://html5up.net" target="_blank">HTML5 UP</a>
 						</p>
 					</footer>				
 		     	</#if>		
