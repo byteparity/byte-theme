@@ -37,8 +37,6 @@
 						portletName="com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet" />
 						<#assign VOID = freeMarkerPortletPreferences.reset() />
 					</li>
-					<li><a href="https://twitter.com/byteparity" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.facebook.com/byteparity" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 				</ul>
 	</header>
 		<nav id="breadcrumbs">
